@@ -1,6 +1,7 @@
 # To run this code, be sure your current working directory
 # is the same as where this file is located and then run:
 # ruby 5-loops.rb
+# NEED 2 LOOPS TO ACCOMPLISH THIS TASK!
 
 # EXERCISE
 # Build a deck of cards. Given the following arrays, use a loop
