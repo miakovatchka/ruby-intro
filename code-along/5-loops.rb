@@ -34,7 +34,7 @@ puts "Eat #{taco} tacos!"
     index = index + 1
 end
 
-# ALTERNATIVE for moving forward; "taco" is the variable name; needs to be set
+# ALTERNATIVE for moving forward; "taco" is the variable name; needs to be set; for and end are bounds within which
 for taco in tacos
     puts "Eat #{taco} tacos!"
 end
