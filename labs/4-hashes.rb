@@ -30,3 +30,15 @@ bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
 # puts bitcoin_data
+
+# dig through data to find conversion rate rate_float; bpi > USD > rate_float; all in [""]
+conversion_rate = bitcoin_data["bpi"]["USD"]["rate_float"]
+
+# Print the conversion rate
+puts "One BTC is worth #{conversion_rate} USD"
+
+# Multiply conversion rate by number of Bitcoin the person has
+value_of_users_bitcoin = bitcoin * conversion_rate
+
+# Write that value to the screen
+puts "Your BTC is worth #{value_of_users_bitcoin} USD"
