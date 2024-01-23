@@ -43,4 +43,4 @@ bens_favorite_foods = ["kale", "sticks", "berries", "nuts"]
 # puts shopping_list [1][0]
 
 # show me the number of items in my favorite foods .size as new method
-# puts "Number of favorite foods: #{favorite_foods.size}"
+puts "Number of favorite foods: #{favorite_foods.size}"

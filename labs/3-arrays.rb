@@ -15,3 +15,15 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# Create my shopping list
+my_shopping_list = ["milk", "eggs", "bacon"]
+
+# Create their shopping list
+friend_shopping_list = ["beer", "cookies", "apples"]
+
+# Combine them
+final_shopping_list = my_shopping_list + friend_shopping_list
+
+# Print the combined shopping list without duplicates and ordering alphabetically (SORT DOES IT ALPHABETICALLY)
+puts final_shopping_list.sort
