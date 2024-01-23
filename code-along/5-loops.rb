@@ -33,3 +33,8 @@ puts "Eat #{taco} tacos!"
 # Increment then index
     index = index + 1
 end
+
+# ALTERNATIVE for moving forward; "taco" is the variable name; needs to be set
+for taco in tacos
+    puts "Eat #{taco} tacos!"
+end
