@@ -20,10 +20,23 @@
 my_shopping_list = ["milk", "eggs", "bacon"]
 
 # Create their shopping list
-friend_shopping_list = ["beer", "cookies", "apples"]
+friend_shopping_list = ["beer", "cookies", "apples", "bacon"]
 
 # Combine them
 final_shopping_list = my_shopping_list + friend_shopping_list
 
 # Print the combined shopping list without duplicates and ordering alphabetically (SORT DOES IT ALPHABETICALLY)
-puts final_shopping_list.sort
+puts final_shopping_list.sort.uniq
+puts final_shopping_list.size # size differs because there are duplicate values
+
+# alpha order
+sorted_list = final_shopping_list.sort
+
+# write the items to the screen with "buy" in front
+puts "Buy #{sorted_list[0]}"
+puts "Buy #{sorted_list[1]}"
+puts "Buy #{sorted_list[2]}"
+puts "Buy #{sorted_list[3]}"
+puts "Buy #{sorted_list[4]}"
+puts "Buy #{sorted_list[5]}"
+
