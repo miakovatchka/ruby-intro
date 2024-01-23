@@ -15,3 +15,21 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+# PRACTICE
+
+# Store a random number in memory for the first time
+random_number_one = rand(1..6)
+# Store a random number in memory for the second time
+random_number_two = rand(1..6)
+# Store the total in memory
+total_of_random_nos = random_number_one + random_number_two
+
+# Write the first die to the screen in a user friendly way; #{}
+puts "First die: #{random_number_one}"
+
+# Write the second die to the screen in a user friendly way
+puts "Second die: #{random_number_two}"
+
+# Write the total to the screen in a user friendly way
+puts "Total: #{total_of_random_nos}"

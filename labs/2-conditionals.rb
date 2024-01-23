@@ -29,4 +29,16 @@ puts die2
 
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
-puts "The total is: #{total}"
+# puts "The total is: #{total}"
+
+#4. Sum two dies with if statement; i.e., if total == 7 || or 11 put "YOU WIN!"
+# elsif total == 2 || 3 || 12 put "YOU LOSE!"
+# else put "Your total is: #{total}"
+
+if total == 7 || total == 11
+    puts "YOU WIN!"
+elsif total == 2 || total == 3 || total == 12 
+    puts "YOU LOSE!"
+else 
+    puts "Your total is #{total}"
+end
